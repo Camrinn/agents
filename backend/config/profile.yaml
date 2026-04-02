@@ -1,0 +1,124 @@
+# ══════════════════════════════════════════════════════════════
+#  YOUR PROFILE — Edit this file to customize your agents
+# ══════════════════════════════════════════════════════════════
+
+# ── Personal Info ────────────────────────────────────────────
+name: "Camrin Neiss"
+email: "camrin.neiss@gmail.com"
+phone: "(267) 231-3533"
+location: "Philadelphia, PA"
+website: "camrinneiss.com"
+linkedin: ""  # Add your LinkedIn URL
+
+# ── Job Search Preferences ───────────────────────────────────
+target_roles:
+  - "Marketing Analyst"
+  - "Growth Marketing Manager"
+  - "Full Stack Developer"
+  - "Web Developer"
+  - "Marketing Technologist"
+  - "Digital Marketing Manager"
+  - "Product Marketing Manager"
+
+target_companies: []  # Add specific companies, or leave empty for broad search
+# Example: ["Stripe", "Vercel", "HubSpot", "Notion", "Linear"]
+
+industries:
+  - "SaaS"
+  - "Tech"
+  - "E-commerce"
+  - "Marketing Technology"
+
+location_preference: "Remote or Philadelphia, PA"
+salary_minimum: ""  # e.g. "90000"
+work_authorization: "US Citizen"  # or "Green Card", "H1B", etc.
+requires_sponsorship: false
+
+experience_level: "Mid-Senior"  # "Entry", "Mid", "Mid-Senior", "Senior", "Lead"
+
+# ── Skills (pulled from your resume) ────────────────────────
+skills:
+  analytics:
+    - "Google Analytics (GA4)"
+    - "Excel / Google Sheets"
+    - "SQL"
+    - "HubSpot"
+    - "Salesforce"
+    - "Data Visualization"
+    - "A/B Testing"
+  marketing:
+    - "SEO & Content Strategy"
+    - "Google Ads"
+    - "Meta Ads"
+    - "Email Marketing"
+    - "Landing Pages"
+    - "CRO & Attribution"
+  development:
+    - "React"
+    - "JavaScript"
+    - "HTML / CSS"
+    - "Responsive Design"
+    - "REST APIs"
+    - "Git"
+    - "Webflow"
+    - "WordPress"
+
+# ── Standard Application Answers ─────────────────────────────
+# These get used to pre-fill common application questions
+application_answers:
+  veteran_status: "I am not a protected veteran"
+  disability_status: "I do not wish to answer"  # or your preference
+  gender: ""  # optional, leave blank to skip
+  race_ethnicity: ""  # optional, leave blank to skip
+  how_did_you_hear: "LinkedIn"
+  willing_to_relocate: true
+  start_date: "2 weeks notice"
+  years_of_experience: "5"
+
+# ── Resume Headline / Summary ────────────────────────────────
+headline: "Marketing professional who bridges the gap between strategy and execution. Combines data analytics expertise with full-stack development skills—meaning I don't just identify what needs to be built, I build it."
+
+# ── Experience (for AI to reference when tailoring) ──────────
+experience:
+  - title: "Marketing & Analytics Consultant"
+    company: "Independent"
+    dates: "2024 – Present"
+    highlights:
+      - "Designed, built, and launched SpadesFitness.com end-to-end; drove 100+ digital product sales"
+      - "Solo-developed Plinza.com React web app from scratch; led GTM reaching 500+ students"
+      - "Build landing pages, email templates, and marketing assets directly—no engineering handoff"
+      - "Implement analytics infrastructure, conversion tracking, and attribution systems"
+
+  - title: "Marketing Data Analyst"
+    company: "Reforge"
+    dates: "2023 – 2024"
+    highlights:
+      - "Improved email CTR by 10% and response rate by 12% through funnel analysis"
+      - "Built dashboards tracking CAC, LTV, and conversion metrics across channels"
+      - "Cleaned and audited datasets of 50K+ records for weekly marketing reports"
+      - "Designed A/B tests and analyzed results to inform campaign strategy"
+
+  - title: "Digital Marketing Specialist"
+    company: "Doctor Multimedia"
+    dates: "2020 – 2022"
+    highlights:
+      - "Managed SEO, Google Ads, and websites for 15+ clients"
+      - "Increased average client organic traffic by 35% via technical SEO"
+      - "Managed $25K+/month Google Ads spend; improved ROAS by 22%"
+      - "Built and maintained client websites, landing pages, and conversion funnels"
+
+education: "BBA, Marketing — San Diego State University"
+certifications: "Meta Front-End Developer Professional Certificate"
+
+# ── Content Preferences (for Content Engine) ─────────────────
+content_voice: "Knowledgeable but approachable. No buzzwords. Show don't tell. Share real examples from my work."
+content_topics:
+  - "Bridging marketing and engineering"
+  - "Building tools instead of waiting for engineering"
+  - "Data-driven marketing decisions"
+  - "React for marketers"
+  - "Career growth as a generalist"
+post_frequency: "3x per week"  # LinkedIn
+platforms:
+  - "LinkedIn"
+  - "Instagram"

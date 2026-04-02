@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: agent-command-center-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false          # You enter this manually in the Render dashboard
+      - key: DB_PATH
+        value: ./data/agents.db
+      - key: ALLOWED_ORIGINS
+        sync: false          # Set to your Vercel URL after deploying frontend
