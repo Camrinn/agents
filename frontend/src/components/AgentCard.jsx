@@ -1,5 +1,6 @@
 import React from 'react';
 import StatusBadge from './StatusBadge';
+import AgentSprite from './AgentSprite';
 
 const AGENT_META = {
   content_engine: { icon: '◈', accent: '#10b981', accentBg: 'rgba(16,185,129,0.08)', name: 'Content Engine', role: 'Social Media Agent' },
@@ -39,6 +40,8 @@ export default function AgentCard({ agentId, data, isSelected, onClick, onTrigge
         </div>
         <StatusBadge status={status} />
       </div>
+
+      <AgentSprite color={meta.accent} status={status} />
 
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 8 }}>
         <div style={{ display: 'flex', gap: 16, fontSize: 11, color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>

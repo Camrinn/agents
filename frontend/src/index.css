@@ -47,3 +47,43 @@ button {
   font-family: inherit;
   cursor: pointer;
 }
+
+/* ── Agent Sprite animations ──────────────────────────────── */
+
+/* Walk left → right, flip, walk right → left, flip back       */
+/* Character is 32px wide. Card inner width ~232px.             */
+/* scaleX(-1) math: right-end flip at translateX(232px),        */
+/* left-end flip back at translateX(37px)                       */
+@keyframes spriteWalk {
+  0% {
+    transform: translateX(5px) scaleX(1);
+    animation-timing-function: linear;
+  }
+  45% {
+    transform: translateX(200px) scaleX(1);
+    animation-timing-function: steps(1, end);
+  }
+  50% {
+    transform: translateX(232px) scaleX(-1);
+    animation-timing-function: linear;
+  }
+  95% {
+    transform: translateX(37px) scaleX(-1);
+    animation-timing-function: steps(1, end);
+  }
+  100% {
+    transform: translateX(5px) scaleX(1);
+  }
+}
+
+/* Limb swing — left leg / right arm phase */
+@keyframes pixelLimbL {
+  0%, 100% { transform: translateY(-2px); }
+  50%       { transform: translateY(2px); }
+}
+
+/* Limb swing — right leg / left arm phase (opposite) */
+@keyframes pixelLimbR {
+  0%, 100% { transform: translateY(2px); }
+  50%       { transform: translateY(-2px); }
+}
